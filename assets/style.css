@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 1s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.nav {
+  height: 5vh;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=style.css.map */

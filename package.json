@@ -1,0 +1,30 @@
+{
+  "name": "luca-pilloni-website",
+  "version": "1.0.0",
+  "description": "Mon propre portfolio",
+  "author": "Luca",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/vuetify": "^0.4.3",
+    "animate.css": "^3.7.0",
+    "animejs": "^2.2.0",
+    "cross-env": "^5.2.0",
+    "firebase-tools": "^6.3.0",
+    "lottie-web": "^5.4.3",
+    "nuxt": "^2.3.4",
+    "three": "^0.97.0",
+    "vue2-hammer": "^2.1.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^7.1.0",
+    "vue-particles": "^1.0.9"
+  }
+}
